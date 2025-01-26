@@ -1,6 +1,6 @@
 body {
 	font-family: "Yugioh", serif;
-	background-image: url(../imagens/fundo-site.jpg);
+	background-image: url(../imagens/fontaine.webp);
 	background-repeat: no-repeat;
 	background-size: cover;
     display: flex;
@@ -16,7 +16,7 @@ body {
 }
 
 .cabecalho .titulo {
-	color: #f1ecff;
+	color: #000000;
 }
 
 .cartao {
@@ -47,19 +47,118 @@ body {
 	gap: 130px;
 }
 
-.cartao .nome {
+.cartao .nome1 {
 	font-size: 13px;
 	padding: 5px;
 	text-transform: uppercase;
-	background: radial-gradient(circle, #f3e2c8, #e4cfa5, #c4a57a);
-	border: 2px solid #a67c52;
+	background: radial-gradient(circle, #222fe0, #0b78d1, #0dc2da);
+	border: 2px solid #000000;
+	border-radius: 4px;
+}
+
+.cartao .nome2 {
+	font-size: 13px;
+	padding: 5px;
+	text-transform: uppercase;
+	background: radial-gradient(circle, #222fe0, #0b78d1, #0dc2da);
+	border: 2px solid #000000;
+	border-radius: 4px;
+}
+
+.cartao .nome3 {
+	font-size: 13px;
+	padding: 5px;
+	text-transform: uppercase;
+	background: radial-gradient(circle, #e0091b, #e42b3a, #ac3150);
+	border: 2px solid #000000;
+	border-radius: 4px;
+}
+
+.cartao .nome4 {
+	font-size: 13px;
+	padding: 5px;
+	text-transform: uppercase;
+	background: radial-gradient(circle, #42d3dd, #1bb3ab, #0dc2da);
+	border: 2px solid #000000;
+	border-radius: 4px;
+}
+
+.cartao .nome5 {
+	font-size: 13px;
+	padding: 5px;
+	text-transform: uppercase;
+	background: radial-gradient(circle, #51d5fd, #16fff3, #1ae4ff);
+	border: 2px solid #000000;
+	border-radius: 4px;
+}
+
+.cartao .nome6 {
+	font-size: 13px;
+	padding: 5px;
+	text-transform: uppercase;
+	background: radial-gradient(circle, #51d5fd, #16fff3, #1ae4ff);
+	border: 2px solid #000000;
+	border-radius: 4px;
+}
+
+.cartao .nome7 {
+	font-size: 13px;
+	padding: 5px;
+	text-transform: uppercase;
+	background: radial-gradient(circle, #51d5fd, #16fff3, #1ae4ff);
+	border: 2px solid #000000;
+	border-radius: 4px;
+}
+
+.cartao .nome8 {
+	font-size: 13px;
+	padding: 5px;
+	text-transform: uppercase;
+	background: radial-gradient(circle, #989b01, #c5d121, #f8fc35);
+	border: 2px solid #000000;
+	border-radius: 4px;
+}
+
+.cartao .nome9 {
+	font-size: 13px;
+	padding: 5px;
+	text-transform: uppercase;
+	background: radial-gradient(circle, #65047e, #7d10a8, #982df0);
+	border: 2px solid #000000;
+	border-radius: 4px;
+}
+
+.cartao .nome10 {
+	font-size: 13px;
+	padding: 5px;
+	text-transform: uppercase;
+	background: radial-gradient(circle, #222fe0, #0b78d1, #0dc2da);
+	border: 2px solid #000000;
+	border-radius: 4px;
+}
+
+.cartao .nome11 {
+	font-size: 13px;
+	padding: 5px;
+	text-transform: uppercase;
+	background: radial-gradient(circle, #e00416, #f1233f, #ff3d3d);
+	border: 2px solid #000000;
+	border-radius: 4px;
+}
+
+.cartao .nome12 {
+	font-size: 13px;
+	padding: 5px;
+	text-transform: uppercase;
+	background: radial-gradient(circle, #015e06, #15a821, #32fd6f);
+	border: 2px solid #000000;
 	border-radius: 4px;
 }
 
 .cartao .estrela {
 	width: 20px;
 	height: 20px;
-	background-image: url(../imagens/nivel-carta.png);
+	background-image: url(../imagens/estrela.webp);
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: inline-block;
@@ -80,12 +179,16 @@ body {
 .cartao .informacoes {
 	border-radius: 5px;
 	max-width: 300px;
-	color: #000000;
-	background: radial-gradient(circle, #f3e2c8, #e4cfa5, #c4a57a);
-	border: 2px solid #a67c52;
+	color: #ffffff;
+	background: radial-gradient(circle, #3a3a3a, #3a3a3a, #3a3a3a);
+	border: 2px solid #000000;
 	text-align: left;
 	line-height: 1.5;
     padding: 5px;
+}
+
+.nome1 .img{
+	max-height: 402px;
 }
 
 .cartao .informacoes .informacoes-ataque {
@@ -108,25 +211,40 @@ body {
 }
 
 .fundo-1 {
-	background: url(../imagens/fundo-1.jpg) no-repeat;
+	background: url(../imagens/fundo_furina.jpg) no-repeat;
 }
 .fundo-2 {
-	background: url(../imagens/fundo-2.jpg) no-repeat;
+	background: url(../imagens/fundo_furina.jpg) no-repeat;
 }
 .fundo-3 {
-	background: url(../imagens/fundo-3.jpg) no-repeat;
+	background: url(../imagens/fundo_lyney.jpg) no-repeat;
 }
 .fundo-4 {
-	background: url(../imagens/fundo-4.jpg) no-repeat;
+	background: url(../imagens/fundo_lynette.jpg) no-repeat;
 }
 .fundo-5 {
-	background: url(../imagens/fundo-5.jpg) no-repeat;
+	background: url(../imagens/fundo_freminet.jpg) no-repeat;
 }
 .fundo-6 {
-	background: url(../imagens/fundo-6.jpg) no-repeat;
+	background: url(../imagens/fundo_freminet.jpg) no-repeat;
 }
 .fundo-7 {
-	background: url(../imagens/fundo-7.jpg) no-repeat;
+	background: url(../imagens/fundo_freminet.jpg) no-repeat;
+}
+.fundo-8 {
+	background: url(../imagens/fundo_navia.jpg) no-repeat;
+}
+.fundo-9 {
+	background: url(../imagens/fundo_clorinde.jpg) no-repeat;
+}
+.fundo-10 {
+	background: url(../imagens/fundo_furina.jpg) no-repeat;
+}
+.fundo-11 {
+	background: url(../imagens/fundo_lyney.jpg) no-repeat;
+}
+.fundo-12 {
+	background: url(../imagens/fundo_emilie.jpg) no-repeat;
 }
 
 .btn-seta{
@@ -148,11 +266,11 @@ body {
 }
 
 .btn-seta:hover{
-    background-color: #8351fe;
+    background-color: #3f5cff;
 }
 
-body::-webkit-scrollbar-track{
-    background-color: #c08057;
+.informacoes1::-webkit-scrollbar-track{
+    background-color: #000000;
 }
 
 ::-webkit-scrollbar {
@@ -160,10 +278,10 @@ body::-webkit-scrollbar-track{
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #c08057;
+    background: #000000;
     border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background: #c08057;
+    background: #000000;
 }
